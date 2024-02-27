@@ -1,0 +1,36 @@
+name: 💡 Feature Request
+description: Create a feature request
+labels: ['enhancement', 'pending triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request this feature!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Please describe the problem this feature would address as clearly and concisely as possible.
+      placeholder: As a user, I want...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: Propose a solution to the problem you've identified, including possible use cases and alternative solutions you've considered.
+      placeholder: We can solve this problem by...
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional information
+      description: Share any other relevant context about the feature you're proposing.
+  - type: checkboxes
+    id: contributing
+    attributes:
+      label: 👨‍👧‍👦 Contributing
+      description: We welcome contributions from the open-source community! Are you interested in working on this issue?
+      options:
+        - label: 🙋‍♂️ Yes, I'd love to make a PR to implement this feature!

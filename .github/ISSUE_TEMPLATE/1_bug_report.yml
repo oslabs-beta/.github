@@ -1,0 +1,52 @@
+name: 🐞 Bug Report
+description: Create a bug report
+labels: ['bug', 'pending triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this bug!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the bug as clearly and concisely as possible.
+      placeholder: <Bug description>
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include a link to a repo/REPL/etc that can reproduce the problem, as well as step-by-step instructions. If we can't reproduce the bug, we can't fix it - so make sure to provide as much detail as possible! ([Read more about minimal reproducible examples here](https://stackoverflow.com/help/minimal-reproducible-example))
+      placeholder: |
+        <Link to repo/REPL/etc>
+        <Reproduction steps>
+    validations:
+      required: true
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System information
+      description: |
+        Provide information about your system, binaries, browsers, and relevant NPM packages - you can run this command in your project root and paste the results:
+
+        ```terminal
+        npx envinfo --system --binaries --browsers --npmPackages "<relevant-package1, relevant-package2, ...>"
+        ```
+      placeholder: |
+        <System, binaries, browsers, relevant packages>
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional information
+      description: Share any other relevant context about the issue you're encountering.
+  - type: checkboxes
+    id: contributing
+    attributes:
+      label: 👨‍👧‍👦 Contributing
+      description: We welcome contributions from the open-source community! Are you interested in working on this issue?
+      options:
+        - label: 🙋‍♂️ Yes, I'd love to make a PR to fix this bug!
