@@ -1,0 +1,29 @@
+name: 📚 Documentation
+description: Request changes to the documentation
+labels: ['documentation', 'pending triage']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest these improvements!
+
+        **Note: For typos and other straightforward issues, please file a PR instead.**
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      placeholder: It would be helpful if...
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional information
+      description: Share any other relevant context about the changes you're requesting.
+  - type: checkboxes
+    id: contributing
+    attributes:
+      label: 👨‍👧‍👦 Contributing
+      description: We welcome contributions from the open-source community! Are you interested in working on this issue?
+      options:
+        - label: 🙋‍♂️ Yes, I'd love to make a PR to improve these docs!
