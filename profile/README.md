@@ -9,7 +9,7 @@ Are you a software engineer who is motivated to have a lasting impact on the eng
 
 Do you share our mission of driving creative technological advancements through open-source software? 
 
-__If so, [checkout our Contribution](../docs/CONTRIBUTING.md) Guidelines, and join our dedicated and supportive engineering community today!__
+__If so, [checkout our Contribution](https://github.com/oslabs-beta/.github/blob/main/docs/CONTRIBUTING.md) Guidelines, and join our dedicated and supportive engineering community today!__
 
 ## Hackathons
 Would you like to experience the thrill of a hackathon as you engage in rapid and collaborative engineering for a chance of winning a prize? At OSLabs, we co-host hackathons with partner organizations that rely on open source for the success of their developer tools. Subscribe to our newsletter and be the first one to know about our upcoming hackathons!
