@@ -13,11 +13,7 @@ To report a security issue, please draft a new Security Advisory for that specif
 1. Click on "New draft security advisory".
 1. Complete and submit the Security Advisory form.
 
-## Communication
-The Open Source Labs team will send a response indicating the next steps in handling your report. After the initial reply to your report, the security team will keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
 
-You should receive a response within __48 hours__. If for some reason you do not, please follow up via email to ensure we received your original message.
-- hello@opensourcelabs.io
 
 ## Security Issues with 3rd Party Modules
 Report security bugs in third-party modules to the person or team maintaining the module. You can also report a vulnerability through the [npm contact form](https://www.npmjs.com/support) by selecting "I'm reporting a security vulnerability".
