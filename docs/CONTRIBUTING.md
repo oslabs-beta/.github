@@ -4,7 +4,7 @@
 Hello and welcome to all! We, the Open Source Labs team, are very excited that you are here. Open Source Labs and the products we develop are only possible due to the incredible and brilliant engineers that contribute to them. As an organization, we aim to be an open and safe place where engineers and designers from any stage of their career can grow themselves and the open source community through cutting edge technology.
 
 Here are some important resources to be aware of:
-- [Open Source products that we maintain/host](https://github.com/open-source-labs)
+- [Open Source products that we maintain/host](https://github.com/oslabs-beta)
 - [Code of Conduct](../CODE_OF_CONDUCT.md)
 - [Security Policy](../SECURITY.md)
 - [Funding](../FUNDING.md)
